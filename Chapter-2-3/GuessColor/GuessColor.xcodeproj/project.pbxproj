@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8004A862264E684800704B98 /* GuessColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A861264E684800704B98 /* GuessColorApp.swift */; };
+		8004A864264E684800704B98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A863264E684800704B98 /* ContentView.swift */; };
+		8004A866264E684E00704B98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8004A865264E684E00704B98 /* Assets.xcassets */; };
+		8004A869264E684E00704B98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8004A868264E684E00704B98 /* Preview Assets.xcassets */; };
+		8004A872264E693A00704B98 /* RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A871264E693A00704B98 /* RGB.swift */; };
+		8004A874264E69BD00704B98 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A873264E69BD00704B98 /* Game.swift */; };
+		8004A87D264E712400704B98 /* SliderGC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A87C264E712400704B98 /* SliderGC.swift */; };
+		8004A87F264E80CB00704B98 /* BevelText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A87E264E80CB00704B98 /* BevelText.swift */; };
+		8004A881264E86BC00704B98 /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A880264E86BC00704B98 /* Shadow.swift */; };
+		8004A883264EA06C00704B98 /* CapsuleColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A882264EA06C00704B98 /* CapsuleColor.swift */; };
+		8004A887264EA8C600704B98 /* NeuButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A886264EA8C600704B98 /* NeuButtonStyle.swift */; };
+		8004A889264EACB600704B98 /* LinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A888264EACB600704B98 /* LinearGradient.swift */; };
+		8004A88B264EB58F00704B98 /* ButtonForScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8004A88A264EB58F00704B98 /* ButtonForScore.swift */; };
+		80CF1513264EB9AA005FB23E /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CF1512264EB9AA005FB23E /* Color.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8004A85E264E684800704B98 /* GuessColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8004A861264E684800704B98 /* GuessColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessColorApp.swift; sourceTree = "<group>"; };
+		8004A863264E684800704B98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8004A865264E684E00704B98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8004A868264E684E00704B98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8004A86A264E684E00704B98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8004A871264E693A00704B98 /* RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGB.swift; sourceTree = "<group>"; };
+		8004A873264E69BD00704B98 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		8004A87C264E712400704B98 /* SliderGC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGC.swift; sourceTree = "<group>"; };
+		8004A87E264E80CB00704B98 /* BevelText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BevelText.swift; sourceTree = "<group>"; };
+		8004A880264E86BC00704B98 /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		8004A882264EA06C00704B98 /* CapsuleColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleColor.swift; sourceTree = "<group>"; };
+		8004A886264EA8C600704B98 /* NeuButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuButtonStyle.swift; sourceTree = "<group>"; };
+		8004A888264EACB600704B98 /* LinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient.swift; sourceTree = "<group>"; };
+		8004A88A264EB58F00704B98 /* ButtonForScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ButtonForScore.swift; path = GuessColor/Extension/ButtonForScore.swift; sourceTree = SOURCE_ROOT; };
+		80CF1512264EB9AA005FB23E /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8004A85B264E684800704B98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8004A855264E684800704B98 = {
+			isa = PBXGroup;
+			children = (
+				8004A860264E684800704B98 /* GuessColor */,
+				8004A85F264E684800704B98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8004A85F264E684800704B98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8004A85E264E684800704B98 /* GuessColor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8004A860264E684800704B98 /* GuessColor */ = {
+			isa = PBXGroup;
+			children = (
+				8004A861264E684800704B98 /* GuessColorApp.swift */,
+				8004A870264E68FF00704B98 /* Model */,
+				8004A876264E6A2900704B98 /* View */,
+				8004A875264E6A1500704B98 /* Extension */,
+				8004A877264E6A4B00704B98 /* System32 */,
+			);
+			path = GuessColor;
+			sourceTree = "<group>";
+		};
+		8004A867264E684E00704B98 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8004A868264E684E00704B98 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8004A870264E68FF00704B98 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8004A871264E693A00704B98 /* RGB.swift */,
+				8004A873264E69BD00704B98 /* Game.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8004A875264E6A1500704B98 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8004A880264E86BC00704B98 /* Shadow.swift */,
+				8004A886264EA8C600704B98 /* NeuButtonStyle.swift */,
+				8004A888264EACB600704B98 /* LinearGradient.swift */,
+				80CF1512264EB9AA005FB23E /* Color.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8004A876264E6A2900704B98 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8004A863264E684800704B98 /* ContentView.swift */,
+				8004A882264EA06C00704B98 /* CapsuleColor.swift */,
+				8004A87C264E712400704B98 /* SliderGC.swift */,
+				8004A88A264EB58F00704B98 /* ButtonForScore.swift */,
+				8004A87E264E80CB00704B98 /* BevelText.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8004A877264E6A4B00704B98 /* System32 */ = {
+			isa = PBXGroup;
+			children = (
+				8004A865264E684E00704B98 /* Assets.xcassets */,
+				8004A86A264E684E00704B98 /* Info.plist */,
+				8004A867264E684E00704B98 /* Preview Content */,
+			);
+			path = System32;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8004A85D264E684800704B98 /* GuessColor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8004A86D264E684E00704B98 /* Build configuration list for PBXNativeTarget "GuessColor" */;
+			buildPhases = (
+				8004A85A264E684800704B98 /* Sources */,
+				8004A85B264E684800704B98 /* Frameworks */,
+				8004A85C264E684800704B98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessColor;
+			productName = GuessColor;
+			productReference = 8004A85E264E684800704B98 /* GuessColor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8004A856264E684800704B98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8004A85D264E684800704B98 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 8004A859264E684800704B98 /* Build configuration list for PBXProject "GuessColor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8004A855264E684800704B98;
+			productRefGroup = 8004A85F264E684800704B98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8004A85D264E684800704B98 /* GuessColor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8004A85C264E684800704B98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8004A869264E684E00704B98 /* Preview Assets.xcassets in Resources */,
+				8004A866264E684E00704B98 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8004A85A264E684800704B98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8004A87D264E712400704B98 /* SliderGC.swift in Sources */,
+				8004A872264E693A00704B98 /* RGB.swift in Sources */,
+				8004A88B264EB58F00704B98 /* ButtonForScore.swift in Sources */,
+				8004A87F264E80CB00704B98 /* BevelText.swift in Sources */,
+				8004A864264E684800704B98 /* ContentView.swift in Sources */,
+				80CF1513264EB9AA005FB23E /* Color.swift in Sources */,
+				8004A862264E684800704B98 /* GuessColorApp.swift in Sources */,
+				8004A881264E86BC00704B98 /* Shadow.swift in Sources */,
+				8004A887264EA8C600704B98 /* NeuButtonStyle.swift in Sources */,
+				8004A889264EACB600704B98 /* LinearGradient.swift in Sources */,
+				8004A883264EA06C00704B98 /* CapsuleColor.swift in Sources */,
+				8004A874264E69BD00704B98 /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8004A86B264E684E00704B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8004A86C264E684E00704B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8004A86E264E684E00704B98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 102;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessColor/System32/Preview Content\"";
+				DEVELOPMENT_TEAM = 879U287R5Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GuessColor/System32/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ihValery.GuessColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8004A86F264E684E00704B98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 102;
+				DEVELOPMENT_ASSET_PATHS = "\"GuessColor/System32/Preview Content\"";
+				DEVELOPMENT_TEAM = 879U287R5Q;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = GuessColor/System32/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ihValery.GuessColor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8004A859264E684800704B98 /* Build configuration list for PBXProject "GuessColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8004A86B264E684E00704B98 /* Debug */,
+				8004A86C264E684E00704B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8004A86D264E684E00704B98 /* Build configuration list for PBXNativeTarget "GuessColor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8004A86E264E684E00704B98 /* Debug */,
+				8004A86F264E684E00704B98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8004A856264E684800704B98 /* Project object */;
+}
